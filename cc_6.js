@@ -15,7 +15,7 @@ class Manager extends Employee {
         this.teamSize = teamSize;
     }
     describe() {
-        return `${this.name} manages the ${this.department} department with a team of ${this.teamSize.Size}.`;
+        return `${this.name} manages the ${this.department} department with a team of ${this.teamSize}.`;
     }
 }
 //Step 4 and 5: Create a few sample employees and managers and also create a company class to manage employees
