@@ -18,3 +18,17 @@ class Manager extends Employee {
         return `${this.name} and manages a team of ${this.department} department with a team of ${this.teamSize.Size}.`;
     }
 }
+//Step 4 and 5: Create a few sample employees and managers and also create a company class to manage employees
+class Company {
+    constructor() {
+        this.employees = []; 
+    }
+    addEmployee(employee) {
+        this.employees.push(employee);
+    }
+    listEmployees() {
+        this.employees.forEach(employee => {
+            console.log(employee.describe());
+        });
+    }
+}
