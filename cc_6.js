@@ -32,3 +32,8 @@ class Company {
         });
     }
 }
+//Step 6: Create instances of employees and managers
+const employee1 = new Employee("Lucas", "Software Development");
+const employee2 = new Employee("Emma", "Engineering");
+const manager1 = new Manager("Olivia", "Finance");  
+const manager2 = new Manager("Liam", "Engineering");
