@@ -35,6 +35,13 @@ class Company {
 //Step 6: Create instances of employees and managers
 const employee1 = new Employee("Lucas", "Software Development");
 const employee2 = new Employee("Emma", "Engineering");
-const manager1 = new Manager("Olivia", "Finance");  
-const manager2 = new Manager("Liam", "Engineering");
+const manager1 = new Manager("Olivia", "Finance", 7);  
+const manager2 = new Manager("Liam", "Engineering", 3);
+
+const companyInstance = new Company();
+companyInstance.addEmployee(employee1); 
+companyInstance.addEmployee(employee2);
+companyInstance.addEmployee(manager1);
+companyInstance.addEmployee(manager2);
+
 companyInstance.listEmployees();
